@@ -1,9 +1,10 @@
 if (sessionStorage.getItem("visited")) {
   var Random_No1 = Math.floor(Math.random() * 6 + 1);
+  var Random_No2 = Math.floor(Math.random() * 6 + 1);
+  
   document
     .querySelector(".img1")
     .setAttribute("src", "./images/dice" + Random_No1 + ".png");
-  var Random_No2 = Math.floor(Math.random() * 6 + 1);
   document
     .querySelector(".img2")
     .setAttribute("src", "./images/dice" + Random_No2 + ".png");
