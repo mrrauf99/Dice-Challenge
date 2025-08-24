@@ -50,9 +50,10 @@ button {
   margin: 40px auto 0;
 }
 
-button:hover {
-  background-color: #3bbf91;
-  transform: scale(1.05);
+@media (hover: hover) and (pointer: fine) {
+  button:hover {
+    background-color: #3bbf91;
+  }
 }
 
 @media (max-width: 767px) {
